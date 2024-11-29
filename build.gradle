@@ -21,6 +21,10 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+	// test assertThat
+	testImplementation 'org.assertj:assertj-core:3.24.2'
+	testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
 }
 
 tasks.named('test') {
